@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./index.css">
+  <style>
+    .drop-zone {
+      width: 400px;
+      height: 300px;
+      border: 2px dashed #ccc;
+      text-align: center;
+      line-height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div id="uploadDashboard">
+    <div class="drop-zone" id="dropZone">
+      <div class="upload-prompt">拖放文件或点击选择（最大50GB）</div>
+      <input type="file" multiple id="fileInput" hidden>
+    </div>
+    <div id="uploadList" class="upload-list"></div>
+  </div>
+<script src="./index.js">
+</script>
+</body>
+</html>
